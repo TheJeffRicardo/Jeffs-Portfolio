@@ -141,7 +141,7 @@ export default {
   font-size: 55px;
   text-transform: capitalize;
   text-align: center;
-  text-decoration: underline aqua;
+  text-decoration: underline #00E7FF;
 }
 .profile-card{
   position: relative;
@@ -187,7 +187,6 @@ export default {
   font-weight: 800;
   margin-bottom: 20px;
   transform: translateY(50px);
-  text-decoration: 0.5px overline aqua;
 }
 .hover-content p{
   font-weight: 200;
@@ -221,6 +220,7 @@ export default {
 }
 .hover-content .social-link i:hover{
   opacity: 0.75;
+  color: #00E7FF;
 }
 .social-link a {
   color: #fff;

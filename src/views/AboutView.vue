@@ -98,6 +98,10 @@
         <h3>MySQL</h3>
         <span class="bar"><span class="mysql"></span></span>
       </li>
+      <li>
+        <h3>UI/UX</h3>
+        <span class="bar"><span class="uix"></span></span>
+      </li>
   </div>
  </div>
 </template>
@@ -133,7 +137,7 @@ export default {
   font-family: 'Josefin Sans', sans-serif;
 }
 .about-section{
-  height: 505vh;
+  height: 510vh;
 }
 .about{
   padding: 78px 0px;
@@ -166,7 +170,7 @@ export default {
   text-transform: capitalize;
   margin-bottom: 20px;
   text-align: start;
-  text-decoration: underline aqua;
+  text-decoration: underline #00E7FF;
 }
 .about-text h5{
   color: #fff;
@@ -176,17 +180,17 @@ export default {
   letter-spacing: 2px;
 }
 span{
-  color: aqua;
+  color: #00E7FF;
 }
 .about-text p{
-  color: burlywood;
+  color: aliceblue;
   letter-spacing: 1px;
   line-height: 28px;
   font-size: 18px;
   margin-bottom: 45px;
 }
 .resume{
-  text-decoration: underline aqua;
+  text-decoration: underline #00E7FF;
 }
 .container {
   min-height: 100vh;
@@ -219,10 +223,11 @@ span{
   margin-bottom: 0;
 }
 .timeline-content h1 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
+  color: #F0F0F0;
 }
 .timeline-content p {
   font-size: 16px;
@@ -237,7 +242,6 @@ span{
   letter-spacing: 2px;
 }
 .timeline-content img{
-  border: 3px solid aqua;
   border-radius: 50%;
   margin-left: 22.8%;
 }
@@ -245,8 +249,7 @@ span{
 /* Progress bar */
 h1{
   text-align: center;
-  text-decoration: underline;
-  text-decoration: underline aqua;
+  font-weight: bold;
 }
 h3{
   margin: 5px;
@@ -257,6 +260,9 @@ h3{
   color: #fff;
   padding: 20px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skill h1{
+  text-decoration: none;
 }
 .skill li{
   margin: 20px 0;
@@ -308,6 +314,10 @@ h3{
 .mysql{
   width: 60%;
   animation: vuejs 3s;
+}
+.uix{
+  width: 40%;
+  animation: uix 3s;
 }
 
 @keyframes html{
@@ -364,6 +374,14 @@ h3{
   }
   100%{
     width: 60%;
+  }
+}
+@keyframes uix{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 40%;
   }
 }
 

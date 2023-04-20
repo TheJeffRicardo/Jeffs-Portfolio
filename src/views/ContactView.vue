@@ -85,7 +85,7 @@ export default {
     font-size: 36px;
     font-weight: 500;
     color: #fff;
-    text-decoration: underline aqua;
+    text-decoration: underline #00E7FF;
     font-family: 'Josefin Sans' sans-serif;
 }
 .contact .content p{
@@ -128,7 +128,7 @@ export default {
 }
 .container .contactInfo .box .text h3{
     font-weight: 500;
-    color: aqua;
+    color: #00E7FF;
 }
 .hero
 {
@@ -193,7 +193,7 @@ textarea:valid~label
 {
     top: -35px;
     font-size: 14px;
-    color: aqua;
+    color: #00E7FF;
 }
 .row
 {

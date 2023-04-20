@@ -83,7 +83,7 @@ export default {
   padding-top: 80px;
   font-size: 40px;
   color: #fff;
-  text-decoration: underline aqua;
+  text-decoration: underline #00E7FF;
 }
 .test-col{
   width: 800px;
@@ -132,7 +132,7 @@ export default {
   line-height: 24px;
 }
 .user-text p span{
-  color: aqua;
+  color: #00E7FF;
 }
 .user-text h3{
   margin: 35px 0 50x;

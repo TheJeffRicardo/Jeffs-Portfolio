@@ -4,11 +4,6 @@
         <div class="profile">
             <img src="https://i.postimg.cc/26kXYWQ0/Jeff-Ricardo.png" class="w-50" alt="Jeff">
             <h1>Navigation <br> Section</h1>
-            <div class="icons">
-                <a href="https://github.com/TheJeffRicardo?tab=repositories"><i class="bi bi-github text-dark"></i></a>
-                <a href="https://www.linkedin.com/messaging/thread/new/"><i class="bi bi-linkedin text-dark"></i></a>
-                <a href="https://discord.com/channels/@me"><i class="bi bi-discord text-dark"></i></a>
-            </div>
         </div>
 
         <!-- Navbar -->
@@ -21,23 +16,11 @@
                 <li> <router-link to="/contact"><i class="bi bi-envelope-at-fill"></i></router-link></li>
             </ul>
         </nav> 
-
-        <!-- Footer -->
-        <div class="footer">
-            <p>Copyright &copy; {{current}} by <br> Konke Malindi <br>
-            All Rights Reserved
-        </p>
-        </div>
 </div>  
 </template>
 <script>
 export default {
-    data(){
-        return {
-            current : new Date().getFullYear()
-        }
-
-    }
+    
 }
 </script>
 <style scoped>
@@ -46,7 +29,6 @@ export default {
     font-family: Poppins;
    height: 100vh;
    width: 300px;
-   padding: 15px 30px;
    background: #222;
    overflow-y: auto;
    left: 0;
@@ -60,7 +42,7 @@ export default {
 }
 .container .profile img{
    border-radius: 10%;
-   border: 5px solid #444;
+   border: 2px solid #111;
 }
 .container .profile h1{
    color: white;
@@ -121,27 +103,27 @@ export default {
 }
 
 .container nav ul li:nth-child(1) a:after{
-    background-color: #e91e63;
+    background-color: #0E8388;
     content: "Home";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(2) a:after{
-    background-color: #8F43EE;
+    background-color: #0E8388;
     content: "About";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(3) a:after{
-    background-color: #009688;
+    background-color: #0E8388;
     content: "Projects";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(4) a:after{
-    background-color: #E21818;
+    background-color: #0E8388;
     content: "Testimonial";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(5) a:after{
-    background-color: #00235B;
+    background-color: #0E8388;
     content: "Contact";
     content-visibility: hidden;
 }
@@ -157,39 +139,29 @@ export default {
 }
 
 .container nav ul li:nth-child(1) a.router-link-exact-active:after {
-    background-color: #e91e63;
+    background-color: #0E8388;
     content: "Home";
     width: 70px;
 }
 .container nav ul li:nth-child(2) a.router-link-exact-active:after {
-    background-color: #8F43EE;
+    background-color: #0E8388;
     content: "About";
     width: 70px;
 }
 .container nav ul li:nth-child(3) a.router-link-exact-active:after {
-    background-color: #009688;
+    background-color: #0E8388;
     content: "Projects";
     width: 100px;
 }
 .container nav ul li:nth-child(4) a.router-link-exact-active:after {
-    background-color: #E21818;
+    background-color: #0E8388;
     content: "Testimonial";
     width: 130px;
 }
 .container nav ul li:nth-child(5) a.router-link-exact-active:after {
-    background-color: #00235B;
+    background-color: #0E8388;
     content: "Contact";
     width: 100px;
-}
-.container .footer{
-    margin-top: 34%;
-    text-align: center;
-    width: 240px;
-    color: lightgray;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-    transition: 0.4s;
-    font-family: Fredoka One;
 }
 @media only screen and (max-width: 1050px){
     .container{
