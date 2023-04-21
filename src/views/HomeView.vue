@@ -4,10 +4,10 @@
         <div class="wrapper">
             <span class="first-text">I'm a</span>
             <ul class="sec-text">
-                <li><span>Developer</span></li>
+                <li><span>Innovative</span></li>
                 <li><span>Designer</span></li>
-                <li><span>Engineer</span></li>
-                <li><span>Frontender</span></li>
+                <li><span>Fullstack</span></li>
+                <li><span>Developer</span></li>
             </ul>
         </div>
         <p>A man once asked me, "What is it you'd like to learn?"
