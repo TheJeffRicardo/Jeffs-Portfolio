@@ -101,29 +101,28 @@ export default {
 .container nav ul li a:hover:after{
     width: 70px;
 }
-
 .container nav ul li:nth-child(1) a:after{
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Home";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(2) a:after{
-    background-color: #0E8388;
+    background-color: transparent;
     content: "About";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(3) a:after{
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Projects";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(4) a:after{
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Testimonial";
     content-visibility: hidden;
 }
 .container nav ul li:nth-child(5) a:after{
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Contact";
     content-visibility: hidden;
 }
@@ -139,27 +138,27 @@ export default {
 }
 
 .container nav ul li:nth-child(1) a.router-link-exact-active:after {
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Home";
     width: 70px;
 }
 .container nav ul li:nth-child(2) a.router-link-exact-active:after {
-    background-color: #0E8388;
+    background-color: transparent;
     content: "About";
     width: 70px;
 }
 .container nav ul li:nth-child(3) a.router-link-exact-active:after {
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Projects";
     width: 100px;
 }
 .container nav ul li:nth-child(4) a.router-link-exact-active:after {
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Testimonial";
     width: 130px;
 }
 .container nav ul li:nth-child(5) a.router-link-exact-active:after {
-    background-color: #0E8388;
+    background-color: transparent;
     content: "Contact";
     width: 100px;
 }

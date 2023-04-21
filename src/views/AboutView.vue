@@ -8,7 +8,8 @@
     <div class="about-text">
       <h1>About Me</h1>
       <h5>Web <span>Developer</span></h5>
-      <p>My name is Konke Malindi but you can call me JeffRicardo.
+      <p>My name is Konke Malindi but you can call me JeffRicardo. I was born on the 2nd February 2004,
+            born and raised in the township Eersterivier 7100 Cape Town.
             I am a developer becuase I've always been able to do one thing,Create,and through
             creation I found coding and really enjoyed it,but....that's not enough though.
             I wanted to explore the art of creation by indulging in what,why and how to code.I always thought

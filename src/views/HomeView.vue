@@ -1,10 +1,23 @@
 <template>
 <div class="contain">
-    <a target="_blank" :href="downloadCV" download>
-        <button class="full-rounded">
-        Download Resume
-    </button>
-    </a>
+    <div class="content">
+        <div class="wrapper">
+            <span class="first-text">I'm a</span>
+            <ul class="sec-text">
+                <li><span>Developer</span></li>
+                <li><span>Designer</span></li>
+                <li><span>Engineer</span></li>
+                <li><span>Frontender</span></li>
+            </ul>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptates facilis a magnam perferendis neque et cupiditate impedit quasi praesentium? Iure quam eligendi adipisci delectus officia eveniet veniam laboriosam laudantium?</p>
+        <a target="_blank" :href="downloadCV" download>
+            <button class="full-rounded">
+                Download Resume
+            </button>
+        </a>
+    </div>
+    <img src="https://i.postimg.cc/7Z5qQDYh/hd-face-cartoon-1-removebg-preview.png" alt="Photo of me" class="feature-img">
 </div>
 </template>
 
@@ -21,17 +34,68 @@ data() {
 
 <style>
 .contain{
-    width: 100%;
     height: 74.35vh;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+.content{
+    margin-top: 18%;
+    margin-left: 4%;
+    max-width: 600px;
+}
+.wrapper {
+    display: flex;
+}
+.wrapper .first-text {
+    font-size: 60px;
+    margin-left: 10%;
+}
+.wrapper .sec-text{
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.sec-text li{
+    position: relative;
+    font-size: 60px;
+    color: aquamarine;
+    top: 0;
+    list-style: none;
+    text-shadow: 0 0 10px aquamarine;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide{
+    100% {
+        top: -360px;
+    }
+}
+.sec-text li span{
+    position: relative;
+}
+.sec-text li span::before{
+    content: '';
+    position: absolute;
+    left: 0%;
+    width: 400px;
+    height: 90px;
+    border-left: 2px solid aquamarine;
+    text-align: left;
+    background-color: #111;
+    animation: typing 1.5s steps(10) infinite alternate;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: #fff;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(0%, 30%);
+}
+a{
+    text-decoration: none;
+    color: #111;
 }
 button {
     font-size: 16px;
     position: relative;
-    margin: auto;
+    margin-left: 35%;
     padding: 1em 2.5em 1em 2.5em;
     border: none;
     background: #fff;
@@ -52,8 +116,22 @@ button:hover {
 .full-rounded {
     border-radius: 2rem;
 }
-a{
-    text-decoration: none;
-    color: #111;
+.feature-img{
+    width: 530px;
+    position: absolute;
+    bottom: 10%;
+    left: 60%;
+    filter: contrast(145%) blur(8px);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+.feature-img:hover{
+    filter: contrast(145%) blur(0px);
+}
+@keyframes typing{
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 </style>
