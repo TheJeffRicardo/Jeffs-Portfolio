@@ -30,7 +30,7 @@
           <img src="https://i.postimg.cc/c4R5rj6y/download-1.png" class="w-50" alt="Photo">
           <h3 class="date">2010-2016</h3>
           <h1>Stratford Primary School</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <p>This was the beginning of my schooling career, this was also where I discovered my interests and my imagination. Passed every grade.</p>
         </div>
       </li>
       <li>
@@ -38,7 +38,7 @@
           <img src="https://i.postimg.cc/9FbX0D9s/302565645-443275894493438-5262069900878957603-n.png" class="w-50" alt="Photo">
           <h3 class="date">2017-2018</h3>
           <h1>WeCode24</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <p>This was a high school course that was introduced to us in Grade 8 and I was the first to join. It was a Python course in which most of the code learned we/I applied it to making a game. Graduated after a year with a Certificate.</p>
         </div>
       </li>
       <li>
@@ -46,15 +46,15 @@
           <img src="https://i.postimg.cc/QMT7MLxc/images.jpg" class="w-50" alt="Photo">
           <h3 class="date">2017-2021</h3>
           <h1>Malibu High School</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <p>This was my high school career where I truly dicovered myself and what my vaules are. Passed every Grade.</p>
         </div>
       </li>
       <li>
         <div class="timeline-content">
           <img src="https://i.postimg.cc/NMnTWNs7/logo.png" class="w-50" alt="Photo">
-          <h3 class="date">2022-2023</h3>
+          <h3 class="date">2022-2022</h3>
           <h1>CodeTelligence</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <p>This course was one I entered before entering another one. This course was my introduction to the skeleton, clothes and movements of coding. This course taught me the basics of coding and the importance of self learning. They taught me HTML, CSS and Python. I was there for 4 weeks</p>
         </div>
       </li>
       <li>
@@ -62,7 +62,7 @@
           <img src="https://i.postimg.cc/rpskGctt/LIFE-CHOICES-ICON-ON-GREEN.jpg" class="w-50" alt="Photo">
           <h3 class="date">2022-2023</h3>
           <h1>Life Choices</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <p>This was the course in which I was taught the basics of HTML, CSS, Javascript, MySQL, Nodejs and Vuejs. This course not only taught me the coding fundamentals, they taught me more about myself and what I'm capable of. I passed all my modules and graduated</p>
         </div>
       </li>
     </ul>
@@ -138,7 +138,7 @@ export default {
   font-family: 'Josefin Sans', sans-serif;
 }
 .about-section{
-  height: 510vh;
+  height: 540vh;
 }
 .about{
   padding: 78px 0px;
@@ -222,6 +222,16 @@ span{
 }
 .timeline ul li:last-child {
   margin-bottom: 0;
+}
+.timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+    top: 50%;
+}
+.timeline ul li:nth-child(even)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+    top: 50%;
 }
 .timeline-content h1 {
   font-weight: 600;

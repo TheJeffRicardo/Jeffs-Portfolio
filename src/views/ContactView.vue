@@ -2,7 +2,7 @@
     <section class="contact">
         <div class="content">
             <h2>Contact Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem magni incidunt eaque sint inventore praesentium, accusantium rerum minima quaerat quia blanditiis necessitatibus provident! Sit, iusto a facere cupiditate vero quod.</p>
+            <p>If there is anything you wish to relay to me, feel free to use this page to do so. <br> Have yourself a very good day</p>
         </div>
     <div class="flex">
         <div class="container">
@@ -71,7 +71,7 @@ export default {
 .contact {
     position: relative;
     min-height: 100vh;
-    padding: 30px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,6 +91,8 @@ export default {
 .contact .content p{
     font-weight: 300;
     color: #fff;
+    width: 50%;
+    margin: auto;
 }
 .contact .flex{
     display: flex;

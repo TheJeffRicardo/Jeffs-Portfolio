@@ -10,7 +10,11 @@
                 <li><span>Frontender</span></li>
             </ul>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptates facilis a magnam perferendis neque et cupiditate impedit quasi praesentium? Iure quam eligendi adipisci delectus officia eveniet veniam laboriosam laudantium?</p>
+        <p>A man once asked me, "What is it you'd like to learn?"
+            <br>
+            I would answer back by saying, "What can you teach me" <br>
+            He smiled and said, "Good answer"
+        </p>
         <a target="_blank" :href="downloadCV" download>
             <button class="full-rounded">
                 Download Resume
@@ -32,9 +36,9 @@ data() {
 }
 </script>
 
-<style>
+<style scoped>
 .contain{
-    height: 74.35vh;
+    height: 70.5vh;
     box-sizing: border-box;
     /* text-align: center; */
 }
@@ -84,9 +88,13 @@ data() {
     animation: typing 1.5s steps(10) infinite alternate;
 }
 .content p{
-    margin: 10px 0 30px;
     color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
     text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 25vh;
 }
 a{
     text-decoration: none;
@@ -95,7 +103,7 @@ a{
 button {
     font-size: 16px;
     position: relative;
-    margin-left: 35%;
+    margin-left: 32%;
     padding: 1em 2.5em 1em 2.5em;
     border: none;
     background: #fff;

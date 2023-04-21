@@ -86,6 +86,7 @@ export default {
   text-decoration: underline #00E7FF;
 }
 .test-col{
+  margin-left: 8%;
   width: 800px;
   height: 400px;
   position: relative;

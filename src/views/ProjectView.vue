@@ -20,7 +20,7 @@
             </div>
             <div class="card-body">
               <h4>{{items.name}}</h4>
-              <p>Types</p>
+              <p>Hover Me</p>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
             </div>
             <div class="card-body">
               <h4>{{items.name}}</h4>
-              <p>Types</p>
+              <p>Hover Me</p>
             </div>
           </div>
         </div>
@@ -104,13 +104,12 @@ export default {
       {
         name: "My Budget",
         details: "This was a Personal Development project we had to do as a team, I did the sign in and login forms and layout. This project helped exposed me to working on a team and know my individual role as part of that. I understand that that's how the industry goes so it helped and will help me in future as well",
-        image: "",
-        github: "https://github.com/SethJKallis/vue-budget",
-        netlify: ""
+        image: "https://i.postimg.cc/vZtKKLvB/open-banking-1200-1662083126.jpg",
+        github: "https://github.com/SethJKallis/vue-budget"
       },
       {
         name: "The Wrestling Express",
-        details: "I am a big professional wrestling fan so this site meant everything to me. It was really fun to build and fairly difficult to design because I don't know how to build my personal preferences, but this site helped me tap into myself and truly express myself... hence the Wrestling Express",
+        details: "I am a big professional wrestling fan so this site meant everything to me. It was really fun to build and fairly difficult to design because I don't know how to build my personal preferences, but this site helped me tap into myself and truly express myself",
         image: "https://i.postimg.cc/3rp1PC7Y/Screenshot-9.png",
         github: "https://github.com/TheJeffRicardo/The-Wrestling-Express.git",
         netlify: "https://the-wrestling-express.web.app/"
@@ -224,9 +223,6 @@ export default {
 }
 .social-link a {
   color: #fff;
-}
-.social-link a {
-
 }
 .card-body{
   position: absolute;
