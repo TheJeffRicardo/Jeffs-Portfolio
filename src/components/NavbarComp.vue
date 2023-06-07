@@ -164,10 +164,32 @@ export default {
 }
 @media only screen and (max-width: 1050px){
     .container{
-        left: -300px
+        width: 15vw;
+        padding-bottom: 69%;
+        overflow: hidden;
     }
-    .container .footer{
-        left: -300px
+    .container .profile h1{
+        font-size: 20px;
+    }   
+    .container nav ul li a:after{
+        margin-left: 10%;
     }
+    .container nav ul{
+    padding-left: 0.15rem;
+}
+}
+@media only screen and (max-width: 300px){
+    .container{
+        width: 20vw;
+        padding-bottom: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .container .profile h1{
+        font-size: 10px;
+    }   
+    .container nav ul{
+    padding-left: 0rem;
+}
 }
 </style>

@@ -211,4 +211,9 @@ textarea:valid~label
 {
     padding-left: 7%;
 }
+@media only screen and (max-width: 1050px){
+    .contact {
+    padding: 20px 30px;
+}
+}
 </style>

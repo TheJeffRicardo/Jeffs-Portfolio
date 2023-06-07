@@ -92,4 +92,14 @@ footer{
     font-weight: bold;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media only screen and (max-width: 1050px){
+    .footer-bottom{
+    width: 85vw;
+}
+}
+@media only screen and (max-width: 300px){
+    .footer-bottom{
+    width: 195vw;
+}
+}
 </style>

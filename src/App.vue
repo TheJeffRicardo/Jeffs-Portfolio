@@ -1,7 +1,7 @@
 <template>
   <Navbar></Navbar>
   <transition name="fade" mode="out-in">
-    <router-view/>
+    <router-view class="overall" data-aos="fade-up"/>
   </transition>
   <Footer></Footer>
 </template>
@@ -56,4 +56,15 @@ export default {
     background-position: bottom;
   }
 } 
+@media only screen and (max-width: 1050px){
+    #app{
+      margin-left: 14.9%;
+    }
+}
+@media only screen and (max-width: 300px){
+    #app{
+      margin-left: 14.9%;
+      width: 189%;
+    }
+}
 </style>

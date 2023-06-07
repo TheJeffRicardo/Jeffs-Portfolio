@@ -250,4 +250,15 @@ export default {
 .carousel-control-next i{
   font-size: 2rem;
 }
+@media only screen and (max-width: 1050px){
+  .profile-card-image{
+    display: none;
+  }
+}
+@media only screen and (max-width: 300px){
+  .carousel-control-next i{
+    margin-left: 900%;
+}
+}
+
 </style>
