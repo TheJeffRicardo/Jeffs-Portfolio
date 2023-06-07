@@ -99,7 +99,21 @@ footer{
 }
 @media only screen and (max-width: 300px){
     .footer-bottom{
-    width: 195vw;
+    width: 90vw;
+}
+
+.socials a i{
+    font-size: 1.2rem;
+}
+
+.footer-content h3{
+    font-size: 1.3rem;
+}
+.footer-content p{
+    max-width: 200px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 10px;
 }
 }
 </style>

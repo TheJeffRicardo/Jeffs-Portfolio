@@ -180,16 +180,66 @@ export default {
 }
 @media only screen and (max-width: 300px){
     .container{
-        width: 20vw;
+        width: 15vw;
         padding-bottom: 100%;
         height: 100%;
         overflow: hidden;
     }
     .container .profile h1{
-        font-size: 10px;
+        font-size: 0px;
     }   
+    .container .profile img{
+        min-width: 50px;
+        margin-left: -12px;
+        border: 0px;
+}
     .container nav ul{
     padding-left: 0rem;
+}
+.container nav ul li a{
+    font-size: 1rem;
+}
+
+.container nav ul li:nth-child(1) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a:hover:after{
+    width: 0px;
+}
+
+.container nav ul li:nth-child(1) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Home";
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "About";
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Projects";
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Testimonial";
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Contact";
+    width: 0px;
 }
 }
 </style>

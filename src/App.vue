@@ -64,7 +64,7 @@ export default {
 @media only screen and (max-width: 300px){
     #app{
       margin-left: 14.9%;
-      width: 189%;
+      width: 90%;
     }
 }
 </style>
