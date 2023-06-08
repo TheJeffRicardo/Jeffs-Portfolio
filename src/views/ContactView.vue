@@ -267,4 +267,119 @@ textarea:valid~label
     padding-left: 22px;
 }
 }
+@media (min-width: 301px) and (max-width: 450px){
+    .contact{
+    padding: 30px;
+}
+.contact .content{
+    margin-left: -10px;
+}
+.contact .content h2{
+    font-size: 36px;
+}
+.contact .content p{
+    width: 100%;
+}
+.contact .flex{
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    margin-left: -100%;
+}
+.container .contactInfo .box .icon{
+    min-width: 40px;
+    height: 40px;
+    font-size: 1rem;
+}
+.container .contactInfo .box .text p{
+    min-width: 9000px;
+}
+input, textarea
+{
+    min-width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+label
+{
+    width: 130px;
+    left: 30px;
+    top: 10px;
+}
+button
+{
+    min-width: 200px;
+    margin-left: 30px;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+    top: -25px;
+}
+.row .label
+{
+    padding-left: 22px;
+}
+}
+
+
+@media (min-width: 451px) and (max-width: 700px){
+    .contact{
+    padding: 30px;
+}
+.contact .content{
+    margin-left: -10px;
+}
+.contact .content h2{
+    font-size: 36px;
+}
+.contact .content p{
+    width: 70%;
+}
+.contact .flex{
+    display: flex;
+    flex-direction: column;
+    width: 0%;
+    margin-left: -75%;
+}
+.container .contactInfo .box .icon{
+    min-width: 40px;
+    height: 40px;
+    font-size: 1rem;
+}
+.container .contactInfo .box .text p{
+    min-width: 9000px;
+}
+input, textarea
+{
+    min-width: 350px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+label
+{
+    width: 130px;
+    left: -20px;
+    top: 10px;
+}
+button
+{
+    min-width: 350px;
+    margin-left: -20px;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label
+{
+    top: -25px;
+}
+.row .label
+{
+    padding-left: 22px;
+}
+}
+
 </style>

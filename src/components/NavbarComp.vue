@@ -194,7 +194,7 @@ export default {
         border: 0px;
 }
     .container nav ul{
-    padding-left: 0rem;
+    padding-left: 0.1rem;
 }
 .container nav ul li a{
     font-size: 1rem;
@@ -242,4 +242,128 @@ export default {
     width: 0px;
 }
 }
+
+
+@media (min-width: 301px) and (max-width: 450px){
+    .container .profile img{
+        min-width: 50px;
+        margin-left: -7px;
+        border: 0px;
+    }
+    .container .profile h1{
+        font-size: 0.6rem;
+        margin-left: -2px;
+}
+    .container nav ul{
+    padding-left: 0.5rem;
+}
+.container nav ul li a{
+    font-size: 1rem;
+}
+
+.container nav ul li:nth-child(1) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a:hover:after{
+    width: 0px;
+}
+
+.container nav ul li:nth-child(1) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Home";
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "About";
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Projects";
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Testimonial";
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Contact";
+    width: 0px;
+}
+}
+
+
+
+@media (min-width: 451px) and (max-width: 700px){
+    .container .profile img{
+        min-width: 75px;
+        margin-left: 0px;
+        border: 0px;
+    }
+    .container .profile h1{
+        font-size: 0.8rem;
+        margin-left: 12px;
+}
+    .container nav ul{
+    padding-left: 1.5rem;
+}
+.container nav ul li a{
+    font-size: 1rem;
+}
+
+.container nav ul li:nth-child(1) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a:hover:after{
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a:hover:after{
+    width: 0px;
+}
+
+.container nav ul li:nth-child(1) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Home";
+    width: 0px;
+}
+.container nav ul li:nth-child(2) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "About";
+    width: 0px;
+}
+.container nav ul li:nth-child(3) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Projects";
+    width: 0px;
+}
+.container nav ul li:nth-child(4) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Testimonial";
+    width: 0px;
+}
+.container nav ul li:nth-child(5) a.router-link-exact-active:after {
+    background-color: transparent;
+    content: "Contact";
+    width: 0px;
+}
+}
+
 </style>

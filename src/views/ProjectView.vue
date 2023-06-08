@@ -321,6 +321,214 @@ export default {
 .carousel-control-next i{
   font-size: 1.3rem;
 }
-
 }
+
+
+@media (min-width: 301px) and (max-width: 450px){
+  .project-text{
+  font-size: 2rem;
+}
+.profile-card-image{
+  min-width: 100%;
+  height: 200px;
+  margin-top: 23%;
+}
+.card-head {
+  width: 150px;
+  height: 250px;
+}
+.hover-content h4{
+  font-size: 0.75rem;
+}
+.hover-content p{
+  font-size: 0.55rem;
+}
+.hover-content .social-link{
+  font-size: 1rem;
+  transform: translateY(90px);
+}
+.hover-content .social-link i{
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card-body{
+  bottom: 90px;
+}
+.card-body h4{
+  font-size: 2rem;
+}
+.profile-card-image{
+  min-width: 100%;
+  height: 200px;
+  margin-top: 23%;
+}
+.card-head {
+  width: 150px;
+  height: 250px;
+}
+.hover-content h4{
+  font-size: 0.75rem;
+}
+.hover-content p{
+  font-size: 0.55rem;
+}
+.hover-content .social-link{
+  font-size: 1rem;
+  transform: translateY(90px);
+}
+.hover-content .social-link i{
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card-body{
+  bottom: 90px;
+}
+.card-body h4{
+  font-size: 1.6rem;
+  color: #fff;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.carousel-control-next {
+  margin-top: 20%;
+}
+.carousel-control-prev i{
+  font-size: 1.3rem;
+  margin-left: -30%;
+}
+.carousel-control-next i{
+  font-size: 1.6rem;
+  color: #fff;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.carousel-control-next {
+  margin-top: 20%;
+}
+.carousel-control-prev i{
+  font-size: 1.3rem;
+  margin-left: 0%;
+}
+.carousel-control-next i{
+  margin-left: -160%;
+  font-size: 1.3rem;
+}
+}
+
+@media (min-width: 451px) and (max-width: 700px){
+  .project-text{
+  font-size: 2rem;
+}
+.profile-card-image{
+  min-width: 100%;
+  height: 200px;
+  margin-left: -5%;
+  margin-top: 23%;
+}
+.card-head {
+  width: 150px;
+  height: 250px;
+}
+.hover-content h4{
+  font-size: 0.75rem;
+}
+.hover-content p{
+  font-size: 0.55rem;
+}
+.hover-content .social-link{
+  font-size: 1rem;
+  transform: translateY(90px);
+}
+.hover-content .social-link i{
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card-body{
+  bottom: 90px;
+}
+.card-body h4{
+  font-size: 2rem;
+}
+.profile-card-image{
+  min-width: 100%;
+  height: 200px;
+  margin-top: 23%;
+}
+.card-head {
+  width: 150px;
+  height: 250px;
+}
+.hover-content h4{
+  font-size: 0.75rem;
+}
+.hover-content p{
+  font-size: 0.55rem;
+}
+.hover-content .social-link{
+  font-size: 1rem;
+  transform: translateY(90px);
+}
+.hover-content .social-link i{
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card-body{
+  bottom: 90px;
+}
+.card-body h4{
+  font-size: 1.6rem;
+  color: #fff;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.carousel-control-next {
+  margin-top: 20%;
+}
+.carousel-control-prev i{
+  font-size: 1.3rem;
+  margin-left: -30%;
+}
+.carousel-control-next i{
+  font-size: 1.6rem;
+  color: #fff;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 15%;
+}
+.carousel-control-next {
+  margin-top: 15%;
+}
+.carousel-control-prev i{
+  font-size: 1.3rem;
+  margin-left: 0%;
+}
+.carousel-control-next i{
+  margin-left: -160%;
+  font-size: 1.3rem;
+}
+}
+
 </style>

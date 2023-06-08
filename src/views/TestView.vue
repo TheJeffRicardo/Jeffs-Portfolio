@@ -219,4 +219,105 @@ export default {
   height: 420vh;
 }
 }
+
+
+@media (min-width: 301px) and (max-width: 450px){
+  .test-col{
+  margin-left: 0%;
+  width: 400px;
+  height: 400px;
+}
+.user-img{
+  top: 51%;
+  margin-left: 0%;
+}
+.user-imgs{
+  padding: 40px;
+  position: absolute;
+  top: 51%;
+  margin-left: 0%;
+}
+.user-text{
+  background: #2d3a59;
+  width: 70%;
+  height: 28vh;
+  padding: 4%;
+  top: 40%;
+  margin-left: -62%;
+}
+.user-text h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.user-text p{
+  font-size: 0.55rem;
+}
+.user-texts{
+  width: 70%;
+  height: 28vh;
+  padding: 4%;
+  left: 3%;
+  top: 40%;
+}
+.user-texts p{
+  font-size: 0.55rem;
+}
+.user-texts h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.hero{
+  height: 420vh;
+}
+}
+
+
+@media (min-width: 451px) and (max-width: 700px){
+  .test-col{
+  width: 100%;
+  height: 400px;
+}
+.user-img{
+  top: 51%;
+  margin-left: 0%;
+}
+.user-imgs{
+  padding: 40px;
+  position: absolute;
+  top: 51%;
+  margin-left: 0%;
+}
+.user-text{
+  background: #2d3a59;
+  width: 70%;
+  height: 28vh;
+  padding: 4%;
+  top: 40%;
+  margin-left: -62%;
+}
+.user-text h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.user-text p{
+  font-size: 0.60rem;
+}
+.user-texts{
+  width: 70%;
+  height: 28vh;
+  padding: 4%;
+  left: 3%;
+  top: 40%;
+}
+.user-texts p{
+  font-size: 0.60rem;
+}
+.user-texts h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.hero{
+  height: 420vh;
+}
+}
 </style>

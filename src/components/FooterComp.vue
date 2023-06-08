@@ -116,4 +116,45 @@ footer{
     font-size: 10px;
 }
 }
+@media (min-width: 301px) and (max-width: 450px){
+    .footer-bottom{
+    width: 90vw;
+}
+
+.socials a i{
+    font-size: 1.2rem;
+}
+
+.footer-content h3{
+    font-size: 1.3rem;
+}
+.footer-content p{
+    max-width: 200px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 10px;
+}
+}
+
+
+@media (min-width: 451px) and (max-width: 700px){
+    .footer-bottom{
+    width: 90vw;
+}
+
+.socials a i{
+    font-size: 1.2rem;
+}
+
+.footer-content h3{
+    font-size: 1.6rem;
+}
+.footer-content p{
+    max-width: 400px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 0.6rem;
+}
+}
+
 </style>

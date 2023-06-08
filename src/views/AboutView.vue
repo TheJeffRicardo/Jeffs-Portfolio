@@ -542,4 +542,112 @@
 }
 }
  
+
+@media (min-width: 301px) and (max-width: 450px){
+  .about .main img{
+  display: none;
+   background-image: none;
+ }
+ .about-text{
+   width: 90%;
+ }
+ .main{
+   width: 100%;
+   max-width: 90%;
+ }
+ .about-text h1{
+   font-size: 3rem;
+   text-align: center;
+ }
+ .about-text h5{
+   text-align: center;
+   font-size: 1rem;
+ }
+ .about-text p{
+   font-size: 1.2rem;
+   text-align: center;
+ }
+ .resume{
+   font-size: 3rem;
+ }
+ .container {
+   padding: 20px 0;
+ }
+ .timeline {
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   margin-left: -7.5%;
+ }
+ .timeline-content .date {
+   text-align: center;
+ }
+ .timeline-content img{
+   border-radius: 50%;
+   margin-left: 25%;
+ }
+ 
+ /* Progress bar */
+ .skill{
+   width: 100%;
+}
+.skill h3{
+  text-align: center;
+}
+}
+
+
+@media (min-width: 451px) and (max-width: 700px){
+  .about .main img{
+  display: none;
+   background-image: none;
+ }
+ .about-text{
+   width: 90%;
+ }
+ .main{
+   width: 100%;
+   max-width: 90%;
+ }
+ .about-text h1{
+   font-size: 3rem;
+   text-align: center;
+ }
+ .about-text h5{
+   text-align: center;
+   font-size: 1rem;
+ }
+ .about-text p{
+   font-size: 1.2rem;
+   text-align: center;
+ }
+ .resume{
+   font-size: 3rem;
+ }
+ .container {
+   padding: 20px 0;
+ }
+ .timeline {
+   width: 100%;
+   height: auto;
+   max-width: 90%;
+   margin-left: 1.5%;
+ }
+ .timeline-content .date {
+   text-align: center;
+ }
+ .timeline-content img{
+   border-radius: 50%;
+   margin-left: 25%;
+ }
+ 
+ /* Progress bar */
+ .skill{
+   width: 90%;
+}
+.skill h3{
+  text-align: center;
+}
+}
+
  </style>
