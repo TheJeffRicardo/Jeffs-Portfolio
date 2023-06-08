@@ -114,6 +114,24 @@ export default {
         github: "https://github.com/TheJeffRicardo/The-Wrestling-Express.git",
         netlify: "https://the-wrestling-express.web.app/"
       },
+      {
+        name: "Trips&Trips",
+        details: "This was my first Wordpress website and I learned a lot about it. Wordpress helped me tap into my creative side and I gain more knowledge on how to styles.",
+        image: "https://i.postimg.cc/x87QDcb9/Screenshot-20.png",
+        netlify: "https://dev-the-jeffasphrere.pantheonsite.io/"
+      },
+      {
+        name: "Kitana Kingdom",
+        details: "This was a a website created using Wordpress where I had to work in a team. I did the functionalities and a few other pages like the login and register. I liked this project because it gave me the chance to gain experince working in a team.",
+        image: "https://i.postimg.cc/qM0XyjtX/Screenshot-23.png",
+        netlify: "https://dev-katana-kingdom.pantheonsite.io/"
+      },
+      {
+        name: "Wordpress Portfolio",
+        details: "This was my adaptation from code to wordpress, using my portfolio design I created on Figma, I was able to convert it from code to Wordpress.",
+        image: "https://i.postimg.cc/CxbgXMMV/Screenshot-21.png",
+        netlify: "https://dev-portfolio-of-jeff.pantheonsite.io/"
+      },
     ],
     };
   },
