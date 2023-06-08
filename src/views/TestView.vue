@@ -2,7 +2,8 @@
   <div class="hero">
     <h1>Testimonials</h1>
     <div class="test-row">
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-img">
           <img src="https://i.postimg.cc/yx1dTQWT/DSC-3517.jpg" class="w-75" alt="">
         </div>
@@ -12,7 +13,8 @@
           <p>Colleague/<span>Web Developer</span></p>
         </div>
       </div>
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-imgs">
           <img src="https://i.postimg.cc/28dGyVfR/C11-Brandon-Swinton-1.jpg" class="w-75" alt="">
         </div>
@@ -22,7 +24,8 @@
           <p>Colleague/<span>Web Developer</span></p>
         </div>
       </div>
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-img">
           <img src="https://i.postimg.cc/ZKqQG8ds/DSC-3520.jpg" class="w-75" alt="">
         </div>
@@ -32,7 +35,8 @@
           <p>Colleague/<span>Web Developer</span></p>
         </div>
       </div>
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-imgs">
           <img src="https://i.postimg.cc/1zFfRVLD/DSC-3597.jpg" class="w-75" alt="">
         </div>
@@ -42,7 +46,8 @@
           <p>Colleague/<span>Web Developer</span></p>
         </div>
       </div>
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-img">
           <img src="https://i.postimg.cc/sf79HvxQ/C11-1.jpg" class="w-75" alt="">
         </div>
@@ -52,7 +57,8 @@
           <p>Colleague/<span>Web Developer</span></p>
         </div>
       </div>
-      <div class="test-col">
+      <div class="test-col" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
         <div class="user-imgs">
           <img src="https://i.postimg.cc/1zPjtYB9/DSC-3581.jpg" class="w-75" alt="">
         </div>
@@ -66,7 +72,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'testimonial'
 }
@@ -162,6 +168,55 @@ export default {
 }
 .user-texts h3{
   margin: 35px 0 5px;
-  color: #fff;
+  color: hsl(0, 0%, 100%);
+}
+@media only screen and (max-width: 300px){
+.test-col{
+  margin-left: -9.6%;
+  width: 400px;
+  height: 400px;
+}
+.user-img{
+  top: 57%;
+  margin-left: 0%;
+}
+.user-imgs{
+  padding: 40px;
+  position: absolute;
+  top: 57%;
+  margin-left: 0%;
+}
+.user-text{
+  background: #2d3a59;
+  width: 50%;
+  height: 35vh;
+  padding: 4%;
+  top: 40%;
+  margin-left: -52%;
+}
+.user-text h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.user-text p{
+  font-size: 0.55rem;
+}
+.user-texts{
+  width: 50%;
+  height: 35vh;
+  padding: 4%;
+  left: 13%;
+  top: 40%;
+}
+.user-texts p{
+  font-size: 0.55rem;
+}
+.user-texts h3{
+  margin: 15px 0 5px;
+  font-size: 1rem;
+}
+.hero{
+  height: 420vh;
+}
 }
 </style>

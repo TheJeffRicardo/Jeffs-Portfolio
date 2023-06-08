@@ -490,9 +490,56 @@
    }
  }
  @media only screen and (max-width: 300px){
-   .about .main img{
-     display: none;
-   }
+ .about .main img{
+  display: none;
+   background-image: none;
  }
+ .about-text{
+   width: 95%;
+ }
+ .main{
+   width: 100%;
+   max-width: 90%;
+ }
+ .about-text h1{
+   font-size: 3rem;
+   text-align: center;
+ }
+ .about-text h5{
+   text-align: center;
+   font-size: 1rem;
+ }
+ .about-text p{
+   font-size: 1.2rem;
+   text-align: center;
+ }
+ .resume{
+   font-size: 3rem;
+ }
+ .container {
+   padding: 20px 0;
+ }
+ .timeline {
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   margin-left: -8.5%;
+ }
+ .timeline-content .date {
+   text-align: center;
+ }
+ .timeline-content img{
+   border-radius: 50%;
+   margin-left: 25%;
+ }
+ 
+ /* Progress bar */
+ .skill{
+   width: 98%;
+}
+.skill h3{
+  text-align: center;
+}
+}
  
  </style>

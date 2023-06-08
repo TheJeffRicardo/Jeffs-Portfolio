@@ -209,12 +209,14 @@ textarea:valid~label
 }
 .row .label
 {
-    padding-left: 7%;
+    padding-left: 9%;
 }
 @media only screen and (max-width: 300px){
-    
+.contact{
+    padding: 30px;
+}
 .contact .content{
-    min-width: 300%;
+    margin-left: -10px;
 }
 .contact .content h2{
     font-size: 36px;
@@ -225,103 +227,44 @@ textarea:valid~label
 .contact .flex{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 0%;
+    margin-left: -133%;
 }
 .container .contactInfo .box .icon{
     min-width: 40px;
     height: 40px;
     font-size: 1rem;
 }
-.container .contactInfo .box .text{
-    display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: #fff;
-    flex-direction: column;
-    font-weight: 300;
-}
-.container .contactInfo .box .text h3{
-    font-weight: 500;
-    color: #00E7FF;
-}
-.hero
-{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-form
-{
-    width: 90%;
-    max-width: 600px;
-}
-.input-group
-{
-    margin-bottom: 30px;
-    position: relative;
+.container .contactInfo .box .text p{
+    min-width: 9000px;
 }
 input, textarea
 {
-    width: 100%;
-    padding: 10px;
-    outline: 0;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    color: #fff;
-    background: transparent;
-    font-size: 15px;
+    min-width: 200px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 label
 {
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 10px;
-    color: #fff;
-    cursor: text;
-    transition: 0.2s;
+    width: 130px;
+    left: 30px;
+    top: 10px;
 }
 button
 {
-    padding: 10px 0;
-    color: #fff;
-    outline: none;
-    background: transparent;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    width: 100%;
-    cursor: pointer;
-}
-button:hover
-{
-    background-color: #fff;
-    color: black;
-    transition: 0.25s
+    min-width: 200px;
+    margin-left: 30px;
 }
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
 textarea:valid~label
 {
-    top: -35px;
-    font-size: 14px;
-    color: #00E7FF;
-}
-.row
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.row .input-group
-{
-    flex-basis: 48%;
+    top: -25px;
 }
 .row .label
 {
-    padding-left: 7%;
+    padding-left: 22px;
 }
 }
 </style>

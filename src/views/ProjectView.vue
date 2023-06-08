@@ -125,7 +125,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .body{
   min-height: 90vh;
@@ -249,5 +249,60 @@ export default {
 }
 .carousel-control-next i{
   font-size: 2rem;
+}
+
+@media only screen and (max-width: 300px){
+.project-text{
+  font-size: 2rem;
+}
+.profile-card-image{
+  min-width: 100%;
+  height: 200px;
+  margin-top: 23%;
+}
+.card-head {
+  width: 150px;
+  height: 250px;
+}
+.hover-content h4{
+  font-size: 0.75rem;
+}
+.hover-content p{
+  font-size: 0.55rem;
+}
+.hover-content .social-link{
+  font-size: 1rem;
+  transform: translateY(90px);
+}
+.hover-content .social-link i{
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.card-body{
+  bottom: 90px;
+}
+.card-body h4{
+  font-size: 1.6rem;
+  color: #fff;
+}
+.card-body p{
+  font-size: 1.2rem;
+}
+.carousel-control-prev {
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.carousel-control-next {
+  margin-top: 20%;
+}
+.carousel-control-prev i{
+  font-size: 1.3rem;
+  margin-left: -30%;
+}
+.carousel-control-next i{
+  font-size: 1.3rem;
+}
+
 }
 </style>
