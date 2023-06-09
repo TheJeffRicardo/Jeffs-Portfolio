@@ -366,4 +366,9 @@ export default {
 }
 }
 
+
+@media (min-width: 451px) and (max-width: 700px){
+    
+}
+
 </style>

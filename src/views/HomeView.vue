@@ -17,7 +17,7 @@
         </p>
         <a target="_blank" :href="downloadCV" download>
             <button class="full-rounded">
-                Download Resume
+                Display Resume
             </button>
         </a>
     </div>

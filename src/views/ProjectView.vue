@@ -434,7 +434,7 @@ export default {
 .profile-card-image{
   min-width: 100%;
   height: 200px;
-  margin-left: -5%;
+  margin-left: 0%;
   margin-top: 23%;
 }
 .card-head {

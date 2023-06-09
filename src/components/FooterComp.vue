@@ -76,8 +76,8 @@ footer{
     font-size: 1.4rem;
     transition: color 0.15s ease;
 }
-.socials a i:hover{
-    color: #0E8388;
+.socials a:hover i{
+    color: aqua;
 }
 .footer-bottom{
     background-color: #222;
